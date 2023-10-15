@@ -1,0 +1,132 @@
+
+p{
+    color: darkorange;
+    font: weight 500px;
+    
+}
+ 
+.option-header {
+    text-decoration: none;
+    text-align:center;
+    border: 3px solid rgb(0, 0, 0);
+    margin-left: 50px;
+    padding: 10px;
+    color: orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+
+}
+
+.option-header:hover{
+    background-color:black ;
+    color: orange;
+    transition: 2s;
+    opacity: inherit;
+    border: 3px solid orange;
+}
+
+
+#header{
+
+    color: darkorange;
+    text-align:center;
+    display: block;
+    
+}
+
+#navbar{
+    
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+body {
+    background-color: black;
+    color: white; /*Color del fondo*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+    
+    h2 {
+        margin-top: 20px;
+    }
+    p {
+        transition: font-size 0.3s;
+    }
+    
+    p:hover {
+        font-size: 1.2em; /* Tamaño de fuente más grande al pasar el mouse */
+    }
+    
+
+
+img {
+    width: 2000px; 
+    height: auto; /* esto mantiene la proporcion de la imagen automatica */
+    margin: 0 auto; /* centra la imagen*/
+    display: block; /* este seria como el que pone una galeria de imagen*/
+    transition: filter 0.5s, transform 0.5s; /* Transicion*/
+
+}
+
+img {
+    filter: blur(5px); /*  difuminación  */
+    transform: scale(0.9); /* reduce el tamaño  */
+    transition: filter 0.5s, transform 0.5s; /* Transicione */
+}
+
+img:hover {
+    filter: none; /* saca la difuminacion cuando paso el mouse */
+    transform: scale(1); /* tamaño original cuando paso el mouse */
+
+}
+
+img {
+    max-width: 1000px; 
+    transition: filter 0.5s, transform 0.5s; 
+}
+
+
+#porque-saco-fotos {
+    font-size: 20px;
+    text-align:end;
+    margin: 20px;
+    line-height: 1.5;
+    color: orange;
+    margin-block: 30px;
+}
+
+#Ubicacion {
+    
+    padding: 10px;
+    text-align: center;
+}
+
+#Musica {
+    
+    padding: 10px;
+    
+    text-align: center;
+}
+
+#Musica iframe {
+    display: none;
+}
+
+#Musica .play-button {
+    
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#Contacto {
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
